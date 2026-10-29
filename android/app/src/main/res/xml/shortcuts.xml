@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Atajos al mantener presionado el ícono de la app. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="ingreso"
+        android:icon="@drawable/ic_ingreso"
+        android:shortcutShortLabel="@string/atajo_ingreso"
+        android:shortcutLongLabel="@string/atajo_ingreso_largo">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.personal.finanzas"
+            android:targetClass="com.personal.finanzas.MainActivity">
+            <extra android:name="accion" android:value="ingreso" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="gasto"
+        android:icon="@drawable/ic_gasto"
+        android:shortcutShortLabel="@string/atajo_gasto"
+        android:shortcutLongLabel="@string/atajo_gasto_largo">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.personal.finanzas"
+            android:targetClass="com.personal.finanzas.MainActivity">
+            <extra android:name="accion" android:value="gasto" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="abono"
+        android:icon="@drawable/ic_abono"
+        android:shortcutShortLabel="@string/atajo_abono"
+        android:shortcutLongLabel="@string/atajo_abono_largo">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.personal.finanzas"
+            android:targetClass="com.personal.finanzas.MainActivity">
+            <extra android:name="accion" android:value="abono" />
+        </intent>
+    </shortcut>
+</shortcuts>

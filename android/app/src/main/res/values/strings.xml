@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_ingreso">Ingreso rápido</string>
+    <string name="atajo_ingreso">Ingreso</string>
+    <string name="atajo_ingreso_largo">Registrar ingreso</string>
+    <string name="atajo_gasto">Gasto</string>
+    <string name="atajo_gasto_largo">Registrar gasto</string>
+    <string name="tile_gasto">Gasto rápido</string>
+    <string name="tile_abono">Abono rápido</string>
+    <string name="atajo_abono">Abono</string>
+    <string name="atajo_abono_largo">Abonar a un préstamo</string>
+</resources>
